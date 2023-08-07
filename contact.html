@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="https://www.nc.gov/" target="_blank">About</a>
+    <a href="contact.html">Contact Us</a>
+    <div class="dropdown">
+      <a href="#">Visit these Cities</a>
+      <div class="dropdown-content">
+        <a href="raleigh.html">Raleigh</a>
+        <a href="charlotte.html">Charlotte</a>
+        <a href="hickory.html">Hickory</a>
+      </div>
+    </div>
+  </nav>
+  <h1>Contact Us</h1>
+  <form id="contactForm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+    <label for="confirmEmail">Confirm Email:</label>
+    <input type="email" id="confirmEmail" name="confirmEmail" required placeholder="Confirm your email">
+
+    <label for="question">Question:</label>
+    <textarea id="question" name="question" rows="4" required placeholder="Ask your question here"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+  <div id="resources">
+    <p>Destination Guide. (n.d.). Interesting Facts About North Carolina. Retrieved from <a
+        href="https://www.destguides.com/united-states/north-carolina/interesting-facts-north-carolina">Destguides</a>
+    </p>
+
+    <p>United States Census Bureau. (2022, July 1). QuickFacts - North Carolina Cities. Retrieved from <a
+        href="https://www.census.gov/quickfacts/fact/table/raleighcitynorthcarolina,charlottecitynorthcarolina,hickorycitynorthcarolina/PST045222">Census.gov</a>
+    </p>
+
+    <p>NC.gov. (n.d.). North Carolina State Government Official Website. Retrieved from <a
+        href="https://www.nc.gov/">NC.gov</a></p>
+  </div>
+</body>
+
+</html>
